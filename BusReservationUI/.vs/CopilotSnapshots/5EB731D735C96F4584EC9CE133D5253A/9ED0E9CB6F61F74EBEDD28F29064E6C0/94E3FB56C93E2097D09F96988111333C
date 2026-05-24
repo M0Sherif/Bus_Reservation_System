@@ -1,0 +1,140 @@
+﻿namespace BusReservationUI
+{
+    partial class Dashboard
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            this.btn_Passenegers = new System.Windows.Forms.Button();
+            this.btn_Reservations = new System.Windows.Forms.Button();
+            this.btn_FleetandDrivers = new System.Windows.Forms.Button();
+            this.btn_RoutesandTrips = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btn_Passenegers
+            // 
+            this.btn_Passenegers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Passenegers.Location = new System.Drawing.Point(3, 2);
+            this.btn_Passenegers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Passenegers.Name = "btn_Passenegers";
+            this.btn_Passenegers.Size = new System.Drawing.Size(390, 159);
+            this.btn_Passenegers.TabIndex = 0;
+            this.btn_Passenegers.Text = "Passengers";
+            this.btn_Passenegers.UseVisualStyleBackColor = true;
+            this.btn_Passenegers.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btn_Reservations
+            // 
+            this.btn_Reservations.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Reservations.Location = new System.Drawing.Point(3, 165);
+            this.btn_Reservations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Reservations.Name = "btn_Reservations";
+            this.btn_Reservations.Size = new System.Drawing.Size(390, 159);
+            this.btn_Reservations.TabIndex = 2;
+            this.btn_Reservations.Text = "Reservations";
+            this.btn_Reservations.UseVisualStyleBackColor = true;
+            this.btn_Reservations.Click += new System.EventHandler(this.btn_reservations);
+            // 
+            // btn_FleetandDrivers
+            // 
+            this.btn_FleetandDrivers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_FleetandDrivers.Location = new System.Drawing.Point(399, 165);
+            this.btn_FleetandDrivers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_FleetandDrivers.Name = "btn_FleetandDrivers";
+            this.btn_FleetandDrivers.Size = new System.Drawing.Size(391, 159);
+            this.btn_FleetandDrivers.TabIndex = 3;
+            this.btn_FleetandDrivers.Text = "Fleet and Drivers";
+            this.btn_FleetandDrivers.UseVisualStyleBackColor = true;
+            this.btn_FleetandDrivers.Click += new System.EventHandler(this.btn_FleetandDrivers_Click);
+            // 
+            // btn_RoutesandTrips
+            // 
+            this.btn_RoutesandTrips.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_RoutesandTrips.Location = new System.Drawing.Point(399, 2);
+            this.btn_RoutesandTrips.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_RoutesandTrips.Name = "btn_RoutesandTrips";
+            this.btn_RoutesandTrips.Size = new System.Drawing.Size(391, 159);
+            this.btn_RoutesandTrips.TabIndex = 4;
+            this.btn_RoutesandTrips.Text = "Routes and Trips";
+            this.btn_RoutesandTrips.UseVisualStyleBackColor = true;
+            this.btn_RoutesandTrips.Click += new System.EventHandler(this.btn_Routes_and_Trips);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tableLayoutPanel1.Controls.Add(this.btn_Reservations, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btn_RoutesandTrips, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btn_Passenegers, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btn_FleetandDrivers, 1, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(793, 326);
+            this.tableLayoutPanel1.TabIndex = 5;
+            // 
+            // Dashboard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(793, 326);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "Dashboard";
+            this.Text = "Dashboard";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btn_Passenegers;
+        private System.Windows.Forms.Button btn_Reservations;
+        private System.Windows.Forms.Button btn_FleetandDrivers;
+        private System.Windows.Forms.Button btn_RoutesandTrips;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+    }
+}
+
